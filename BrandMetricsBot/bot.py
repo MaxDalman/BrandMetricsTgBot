@@ -478,7 +478,7 @@ async def process_contacts_command(message: Message):
     await message.answer(text='Вы всегда можете связаться с нами любым способом:\n'
                               '📧 <b>E-mail</b>: info@brandmetrika.ru\n'
                               '📲 <b>Тел.</b>: +7 (800) 350-11-36\n'
-                              '🔵 <a href="https://t.me/+tU8pYA1E3rw0MWQy">Telegram-канал</a>',
+                              '🔵 <a href="https://t.me/+fYDs5sY_5JpmNzVi">Telegram-канал</a>',
                          parse_mode='HTML',
                          reply_markup=contacts_keyboard)
 
