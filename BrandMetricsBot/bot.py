@@ -373,7 +373,7 @@ async def process_no_answer(message: Message):
 async def process_send_form_manager(message: Message):
     # Отправляем менеджеру анкету, если она есть в "базе данных"
     if message.from_user.id in user_dict:
-        await bot.send_message(275668298,
+        await bot.send_message(975013866,
                text='Привет! Необходимо зарегистрировать нового агента в Shopmetrics 🕵‍\n'
                     '\n'
                     f'<b>🕵️ Имя, Фамилия</b>: {user_dict[message.from_user.id]["name"]}\n'
